@@ -1,0 +1,11 @@
+# Python dependencies for train_ner.py (versions not pinned; see README, "Environment")
+torch
+transformers
+datasets
+accelerate
+seqeval
+scikit-learn
+numpy
+matplotlib
+seaborn
+tqdm
