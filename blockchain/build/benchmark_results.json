@@ -1,0 +1,37 @@
+{
+  "network": "Hardhat Network (local EVM, Cancun ruleset, Solidity 0.8.24, optimizer 200 runs) — gas accounting is network-agnostic and matches mainnet/testnet execution",
+  "sampleSize": 200,
+  "grantAccessGas": 45092,
+  "deployment": {
+    "gasUsed": 630932,
+    "latencyMs": 9.748971
+  },
+  "storeSkillProfile": {
+    "avgGas": 161051.62,
+    "stdGas": 4.011932202816986,
+    "minGas": 161029,
+    "maxGas": 161053,
+    "avgLatencyMs": 1.864652665000001,
+    "stdLatencyMs": 0.8783524325126635
+  },
+  "verifySkillProfile": {
+    "avgGas": 29338.62,
+    "stdGas": 4.011932202816989,
+    "avgLatencyMs": 1.6174542249999992,
+    "stdLatencyMs": 0.823026250185712
+  },
+  "fetchProfile": {
+    "avgGas": 38265,
+    "avgLatencyMs": 1.8980305500000012
+  },
+  "endToEnd": {
+    "description": "StoreProfile + wait for receipt + VerifyProfile, per profile",
+    "avgLatencyMs": 2.5151934600000003,
+    "stdLatencyMs": 0.7244886150182959,
+    "throughputProfilesPerSec": 397.5837309945931
+  },
+  "memory": {
+    "rssMB": 174.0859375,
+    "heapUsedMB": 33.28578186035156
+  }
+}
